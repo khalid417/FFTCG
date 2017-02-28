@@ -14,14 +14,18 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package net.uberhaxed.fftcg.datamodel.ability;
+package net.uberhaxed.fftcg.datamodel.ability.meta;
 
 /**
  *
  * @author khalid
  */
-public enum BreakZoneCost {
-	This,
-	Forward,
-	Backup
+public enum Precondition {
+	TargetForward,
+	TargetActiveForward,
+	TargetDullForward,
+	TargetBackup,
+	TargetActiveBackup,
+	TargetDullBackup,
+	None
 }

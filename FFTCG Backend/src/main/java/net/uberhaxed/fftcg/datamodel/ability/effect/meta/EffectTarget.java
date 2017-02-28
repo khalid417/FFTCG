@@ -16,8 +16,8 @@
  */
 package net.uberhaxed.fftcg.datamodel.ability.effect.meta;
 
-import net.uberhaxed.fftcg.datamodel.ability.State;
-import net.uberhaxed.fftcg.datamodel.ability.TargetPlayer;
+import net.uberhaxed.fftcg.datamodel.ability.meta.State;
+import net.uberhaxed.fftcg.datamodel.ability.meta.TargetPlayer;
 import net.uberhaxed.fftcg.datamodel.card.meta.CardType;
 import net.uberhaxed.fftcg.datamodel.card.meta.Element;
 

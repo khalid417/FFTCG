@@ -20,7 +20,7 @@ import net.uberhaxed.fftcg.datamodel.ability.effect.meta.EffectTarget;
 import net.uberhaxed.fftcg.datamodel.ability.effect.meta.EffectTargetSpecial;
 import net.uberhaxed.fftcg.datamodel.ability.effect.meta.Effect;
 import java.util.List;
-import net.uberhaxed.fftcg.datamodel.ability.Cost;
+import net.uberhaxed.fftcg.datamodel.ability.meta.Cost;
 
 /**
  *

@@ -16,7 +16,7 @@
  */
 package net.uberhaxed.fftcg.datamodel.ability.effect.NegateEffect;
 
-import net.uberhaxed.fftcg.datamodel.ability.AbilityType;
+import net.uberhaxed.fftcg.datamodel.ability.meta.AbilityType;
 
 /**
  *

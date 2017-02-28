@@ -14,15 +14,18 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package net.uberhaxed.fftcg.datamodel.ability;
+package net.uberhaxed.fftcg.datamodel.ability.meta;
+
+import java.util.List;
+import net.uberhaxed.fftcg.datamodel.card.meta.Element;
 
 /**
  *
  * @author khalid
  */
-public enum AbilityType {
-	Action,
-	Auto,
-	Field,
-	Special
+public class Cost {
+	public List<Element> elementCost;
+	public List<BreakZoneCost> breakZoneCost;
+	public boolean dull;
+	public boolean special;
 }

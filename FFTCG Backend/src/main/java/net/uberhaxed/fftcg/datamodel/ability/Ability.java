@@ -17,6 +17,9 @@
 package net.uberhaxed.fftcg.datamodel.ability;
 
 import java.util.List;
+import net.uberhaxed.fftcg.datamodel.ability.meta.AbilityType;
+import net.uberhaxed.fftcg.datamodel.ability.meta.Cost;
+import net.uberhaxed.fftcg.datamodel.ability.meta.Precondition;
 import net.uberhaxed.fftcg.datamodel.ability.effect.meta.Effect;
 
 /**
